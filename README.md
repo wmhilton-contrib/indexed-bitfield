@@ -18,11 +18,11 @@ const bits = bitfield(1e9)
 bits.set(1000000, true)
 
 // returns true
-console.log(bits.get(10000000))
+console.log(bits.get(1000000))
 
 const ite = bits.iterator()
 
-// returns 10000000
+// returns 1000000
 console.log(ite.next(true))
 
 // returns -1 (no more true bits)
